@@ -8,7 +8,7 @@ import { Stock } from '../Interface/stocks';
 })
 export class StocksService {
   private urlBase: string =
-    'http://localhost/Sexto_PHP_ANGULAR/Inventario/Controllers/Stock.Controller.php?op=';
+    'http://localhost/Sexto_PHP_ANGULAR-main/Inventario/Controllers/Stock.Controller.php?op=';
   constructor(private cliente: HttpClient) {}
 
   todos(): Observable<Stock[]> {
